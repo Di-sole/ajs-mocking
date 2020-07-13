@@ -1,0 +1,41 @@
+{
+  "name": "ajs-mocking",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "lint": "eslint .",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Di-sole/ajs-mocking.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Di-sole/ajs-mocking/issues"
+  },
+  "homepage": "https://github.com/Di-sole/ajs-mocking#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.10.4",
+    "@babel/core": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "babel-jest": "^26.1.0",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^3.6.0",
+    "eslint": "^7.4.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "html-loader": "^1.1.0",
+    "html-webpack-plugin": "^4.3.0",
+    "jest": "^26.1.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5"
+  }
+}
